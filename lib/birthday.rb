@@ -12,6 +12,8 @@ end
 
 def age_appropriate_birthday
   if age =< 12
+    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
+  elsif age > 12
     puts 
   it "only prints the birthday greeting if the birthday kid 12 or younger" do
     birthday_kids = {
