@@ -11,7 +11,8 @@ def happy_birthday(birthday_kids)
 end
 
 def age_appropriate_birthday
-  
+  if age =< 12
+    puts 
   it "only prints the birthday greeting if the birthday kid 12 or younger" do
     birthday_kids = {
       "Timmy" => 9,
